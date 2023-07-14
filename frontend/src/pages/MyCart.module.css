@@ -1,0 +1,95 @@
+.cart{
+    width:50%;
+    height: max-content;
+    background-color: white;
+    margin: 200px auto;
+    list-style: none;
+    padding: 16px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.26);
+    animation-name: slidup;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.cart li{
+    margin-bottom:15px ;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-bottom: 0.05px solid gray;
+}
+.image{
+    width:100px;
+    height: 100px;
+    border-radius: 15px;
+    border: 1px solid red;
+}
+
+.item-name{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.item-price{
+    color:rgb(131, 46, 46);
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.item-desc{
+    margin-bottom: 5px;
+}
+
+.item-qty{
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+.cart li:first-child{
+    border-bottom:none ;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(129, 39, 39);
+}
+
+.cart li:last-child{
+    border-bottom:none ;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(129, 39, 39);
+}
+
+.cart li button{
+    font-size: 1.3rem;
+    padding: 0.1rem 1.3rem;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    border:none;
+    border:1px solid rgb(63, 53, 53);
+    border-radius: 5px;
+    cursor: pointer;
+    color:rgb(83, 74, 74);
+    background-color: rgb(248, 248, 248);
+}
+
+.place-order-btn button{
+    float: right;
+    color:white;
+    background: none;
+    background-color:rgb(129, 39, 39);
+}
+
+.remove-btn{
+    float: right;
+}
+@keyframes slidup {
+    100%{
+        transform: translateY(-80px);
+    }
+}
+@media screen and (max-width:768px) {
+    .cart{
+        width: 80%;
+    }
+    
+}

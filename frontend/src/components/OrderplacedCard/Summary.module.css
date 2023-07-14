@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px auto;
+    width: 80%;
+    height:max-content;
+    padding: 16px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.26);
+    animation-name: slidup;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+  
+}
+.heading{
+    margin: 0px auto;
+color:brown;
+font-size: 2rem;
+  text-align: center;
+  text-decoration: underline;
+}
